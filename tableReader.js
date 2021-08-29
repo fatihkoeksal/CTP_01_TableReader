@@ -67,6 +67,8 @@ function printToConsole(outputStr) {
 }
 
 // siehe PR-Beschreibung
+// PR link: https://github.com/ComcaveTeamwork/CTP_01_TableReader/pull/44
+// Wiki Artikel: https://github.com/ComcaveTeamwork/CTP_01_TableReader/wiki/XMLHttpRequest
 function readDataFromFile (path)
 {
     var request = new XMLHttpRequest();
