@@ -30,6 +30,7 @@ function showList() {
         newListElement.innerText = persons[i].firstName + " " + persons[i].lastName;
         ul1.appendChild(newListElement);
     }
+    document.getElementById('dispBtn1').disabled = true;
 }
 
 // pushNames: Es werden Objekte mit zwei internen Variablen "firstName" und "lastName" erstellt. Die Wertzuweisungen erfolgen ebenfalls auf direktem Wege. Danach werden die
